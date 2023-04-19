@@ -4,7 +4,6 @@ import ComponentF from './ComponentF'
 const ComponentE = () => {
     return (
         <div>
-            ComponentE
             <ComponentF />
         </div>
     )
