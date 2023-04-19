@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+/* To DO List  */
+.to-do-list-container{
+  width: 100%;
+  max-width:700px;
+  margin-inline: auto;
+  background-color: rgb(243, 239, 239);
+  padding-block: 50px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.to-do-list-container h1{
+  color: yellowgreen;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+input[type="text"]{
+  margin-right: 20px;
+  border: 2px solid;
+  box-shadow: 2px 2px yellowgreen;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+input[type="text"]:focus{
+  outline: yellowgreen;
+}
+
+input:focus, input:focus-visible{
+  box-shadow: 0 0 0 2px yellowgreen;
+
+}
+
+.add-btn{
+  background-color: yellowgreen;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+  padding: 8px 16px;
+  box-sizing: border-box;
+}
